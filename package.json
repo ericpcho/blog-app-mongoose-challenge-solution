@@ -4,7 +4,8 @@
   "description": "Shopping list app to demo 'the modern classic'",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha"
   },
   "dependencies": {
     "Faker": "^0.7.2",
@@ -19,5 +20,10 @@
     "hyperdev",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.5.3"
+  }
 }
