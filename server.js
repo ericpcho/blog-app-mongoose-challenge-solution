@@ -97,7 +97,7 @@ app.put('/posts/:id', (req, res) => {
     .catch(err => res.status(500).json({message: 'Something went wrong'}));
 });
 
-// WHY IS THIS HERE??????????
+// WHY IS THIS HERE?????????? for real?
 app.delete('/:id', (req, res) => {
   BlogPosts
     .findByIdAndRemove(req.params.id)
